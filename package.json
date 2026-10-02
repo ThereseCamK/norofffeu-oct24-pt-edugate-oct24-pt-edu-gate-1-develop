@@ -1,0 +1,39 @@
+{
+  "name": "edu-gate",
+  "version": "1.0.0",
+  "description": "The frontend part of edugate",
+  "engines": {
+    "node": ">=20.13.1",
+    "npm": ">=10.5.2"
+  },
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sulenchy/edu-gate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sulenchy/edu-gate/issues"
+  },
+  "homepage": "https://github.com/sulenchy/edu-gate#readme",
+  "directories": {
+    "doc": "docs"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.1",
+    "live-server": "^1.2.2",
+    "vite": "^8.0.3"
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-router-dom": "^7.13.2"
+  }
+}
